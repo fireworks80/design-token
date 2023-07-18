@@ -4,7 +4,7 @@ const colorFile = fs.createWriteStream('_color.scss');
 const extButtonData = require('./js/extract-button-data');
 
 try {
-  const data = fs.readFileSync('./json/tokens.json', 'utf8');
+  const data = fs.readFileSync('./tokens.json', 'utf8');
   const customColor = JSON.parse(data)['custom-color'];
 
   const result = Object.entries(customColor).map(([key, data]) => {
