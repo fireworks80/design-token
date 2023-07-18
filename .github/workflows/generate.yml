@@ -36,6 +36,7 @@ jobs:
 
       - name: Commit & Push
         run: |
+          git add .
           git config user.email "jihoon6372@hanmail.net"
           git config user.name "github-action"
           git commit -am "update message"
