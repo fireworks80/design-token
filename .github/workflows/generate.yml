@@ -36,7 +36,7 @@ jobs:
 
       - name: Commit & Push
         run: |
-          git config user.email "이메일"
-          git config user.name "이름"
+          git config user.email "jihoon6372@hanmail.net"
+          git config user.name "github-action"
           git commit -am "update message"
           git push
