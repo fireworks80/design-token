@@ -29,3 +29,9 @@ $green-light-30: #34c759;
 $green-light-40: #22a343;
 $green-dark-30: #5bbd74;
 $green-dark-40: #46955a;
+
+ $btn: (primary: $blue-light-30,
+secondary: $grayscale-80,
+ghost: $white,
+danger: $red-light-30,
+);
